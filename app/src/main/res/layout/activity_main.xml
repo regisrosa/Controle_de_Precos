@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CADASTRO DE PRODUTO"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>
+
+   <EditText
+       android:id="@+id/produto"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:hint="Produto:"
+       android:textSize="25sp"
+       android:layout_marginTop="100dp"
+       android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/estabelecimento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Estabelecimento:"
+        android:textSize="25sp"
+        android:layout_marginTop="170dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/preco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Preço:"
+        android:textSize="25sp"
+        android:layout_marginTop="240dp"
+        android:layout_centerHorizontal="true"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Data:"
+        android:textSize="25sp"
+        android:layout_marginTop="310dp"
+        android:layout_centerHorizontal="true"
+        android:inputType="date"/>
+
+    <Button
+        android:id="@+id/salvarButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SALVAR"
+        android:layout_marginTop="500dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
